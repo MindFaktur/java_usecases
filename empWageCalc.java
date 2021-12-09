@@ -4,7 +4,7 @@ public class empWageCalc{
 	static int fullDayHr = 8;
 
 	public static void main(String[] args){
-		if (isPresent==random_num()){
+		if (isPresent == random_num()){
 			System.out.println("Employee is present");
 			System.out.println("Daily wage is " + daily_wage());
 		}else{
@@ -14,7 +14,7 @@ public class empWageCalc{
 	}
 
 	public static int daily_wage(){
-		return wagePerHr*fullDayHr;
+		return wagePerHr * fullDayHr;
 	}
 
 	public static int random_num(){
