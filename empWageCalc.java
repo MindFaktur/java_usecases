@@ -4,7 +4,7 @@ public class empWageCalc{
 
 	public static void main(String[] args){
 		final int isFullTime = 2, isPartTime = 1;
-		for (int i = 0; i < workDays; i++){
+		while ( totalHr < 100 && (totalFullDays + totalPartDays) < workDays ){
 			int rand_num = random_num();
 			switch ( rand_num ){
 			case isFullTime:	totalHr += fullDayHr;
